@@ -3,14 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="css/main.css" />
     <title>About Me</title>
   </head>
-  <body id="bg-img">
+
+  <body>
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -24,42 +29,87 @@
         </div>
         <ul class="menu-nav">
           <li class="nav-item">
-            <a href="/" class="nav-link"> Home
-            </a>
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link"> Bio </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link"> Projects </a>
           </li>
           <li class="nav-item current">
-            <a href="/about.html" class="nav-link"> About</a>
-          </li>
-          <li class="nav-item">
-            <a href="/work.html" class="nav-link"> My Work</a>
-          </li>
-          <li class="nav-item">
-            <a href="/contact.html" class="nav-link"> Contact</a>
+            <a href="contact.html" class="nav-link"> Contact </a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <!-- Main Section -->
     <main id="about">
-      <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
-      <h2 class="sm-heading">Let me introduce myself</h2>
-      <div class="about-info"><img src="img/portrait.jpg" alt="John Doe" class="bio-image">
-    <div class="bio">
-      <h3 class="text-secondary">BIO</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nam, quos esse rem laborum blanditiis officia quaerat quidem. Eos rerum doloribus voluptas a nesciunt unde nam perspiciatis ipsum officia cumque!
-      </p>
-      <div class="job-1">
-        <h3>123 Webshop
+      <h1 class="lg-heading">
+        About
+        <span class="text-secondary">Me</span>
+      </h1>
+      <h2 class="sm-heading">Some background</h2>
+      <div class="about-info">
+        <img
+          style="width: 85%"
+          src="img/Meportrait.jpg"
+          alt="Matt Germeyer"
+          class="bio-image"
+        />
 
+        <div class="bio">
+          <h3 class="text-secondary">
+            Matt <span class="text-secondary">Germeyer</span>
+          </h3>
+          <p>
+            Software Developer from South Texas. Lived in Austin since finishing
+            school here in 2008. Into gaming and photography. I love to cook,
+            take snapshots of my cats, and watch documentaries.
+          </p>
+        </div>
 
-      </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, molestias.</p>
+        <div class="job job-1">
+          <h3>Austin Code Academy</h3>
+          <h5>Full Stack Developer</h5>
+          <p>
+            Curriculum development for Java Spring portion of a Full Stack
+            development boot camp for a cohort of Dell employees. Developed
+            lectures, problem sets, and projects for students. Provided ongoing
+            mentorship and tutoring as the team member responsibl for helping
+            struggling students.
+          </p>
+        </div>
+
+        <div class="job job-2">
+          <h3>Current Focus</h3>
+          <h5>Should I Watch? App</h5>
+          <p>
+            My current project is a spin off of one of my previous projects
+            about Soccer. The goal is to help users decide if a soccer match is
+            worth watching, without spoiling its score line. This way users can
+            make better choices about the games they choose to spend 90 minutes
+            watching. I'm using Tweets, natural language processing, and my own
+            algorithm to decide what makes a game good! Stay tuned for updates
+            on my projects!
+          </p>
+        </div>
+
+        <div class="job job-3">
+          <h3>Freelancer</h3>
+          <h5>Real Estate Industry</h5>
+          <p>
+            Worked as a freelancer transitioning an older java project into a
+            modern Spring project. Freelancing helped me learn to love Web
+            Development, learn some skills dealing directly with client needs
+            and project/time management.
+          </p>
+        </div>
       </div>
-     
-    </div>
-      </main>
-      <footer class="main-footer">Copyright &copy; 2020</footer>
+    </main>
+
+    <footer id="main-footer">Copyright &copy; 2020</footer>
+
     <script src="js/main.js"></script>
   </body>
 </html>
